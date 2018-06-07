@@ -1,7 +1,7 @@
 ﻿using ProtoBuf;
 using System.IO;
 
-namespace ProtobufSample.Serializers
+namespace Serialization.Samples.Serializers
 {
     public class ProtobufSerializer<T> : ISerializer<T>
     {

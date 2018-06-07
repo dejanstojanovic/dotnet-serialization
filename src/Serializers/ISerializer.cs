@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ProtobufSample.Serializers
+﻿namespace Serialization.Samples.Serializers
 {
     public interface ISerializer<T>
     {
