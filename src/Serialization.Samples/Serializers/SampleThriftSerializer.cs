@@ -3,11 +3,11 @@ using System.IO;
 
 namespace Serialization.Samples.Serializers
 {
-    public class AvroSerializer<T> : ISerializer<T>
+    public class SampleThriftSerializer<T> : ISerializer<T> where T : class
     {
 
         private readonly IAvroSerializer<T> avroSerializer;
-        public AvroSerializer()
+        public SampleAvroSerializer()
         {
             avroSerializer = AvroSerializer.Create<T>();
         }

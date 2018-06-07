@@ -3,7 +3,7 @@ using System.IO;
 
 namespace Serialization.Samples.Serializers
 {
-    public class ProtobufSerializer<T> : ISerializer<T>
+    public class SampleProtobufSerializer<T> : ISerializer<T> where T : class
     {
         public T Deserialize(byte[] arrayToDeserialize)
         {

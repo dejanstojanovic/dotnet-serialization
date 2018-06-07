@@ -2,8 +2,9 @@
 using System.Runtime.Serialization;
 using ProtoBuf;
 
-namespace Serialization.Samples.Models
+namespace Serialization.Samples.Tests.Models
 {
+    [Serializable]
     [DataContract(IsReference = true, Name = "Person", Namespace = "Serialization.Samples")]
     [ProtoContract]
     public class Person
