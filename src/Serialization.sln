@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialization.Samples", "Serialization.Samples.csproj", "{755C17F2-1DF9-4569-8FCC-B9CBA7F66690}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialization.Samples.Tests", "..\Serialization.Samples.Tests\Serialization.Samples.Tests.csproj", "{01DD6488-0F4D-4930-9462-7158DE005B98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{755C17F2-1DF9-4569-8FCC-B9CBA7F66690}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{755C17F2-1DF9-4569-8FCC-B9CBA7F66690}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{755C17F2-1DF9-4569-8FCC-B9CBA7F66690}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01DD6488-0F4D-4930-9462-7158DE005B98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01DD6488-0F4D-4930-9462-7158DE005B98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01DD6488-0F4D-4930-9462-7158DE005B98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01DD6488-0F4D-4930-9462-7158DE005B98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
