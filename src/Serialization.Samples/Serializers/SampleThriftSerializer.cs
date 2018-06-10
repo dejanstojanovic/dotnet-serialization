@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using Thrift.Protocol;
 using Thrift.Transport;
 
@@ -8,11 +9,12 @@ namespace Serialization.Samples.Serializers
     {
         public T Deserialize(byte[] arrayToDeserialize)
         {
+
             using (var stream = new MemoryStream(arrayToDeserialize))
             {
                 TProtocol tProtocol = new TBinaryProtocol(new TStreamTransport(stream, stream));
 
-                return barFooMessageThrift.Read(tProtocol) as T;
+                return messageObject.Read(tProtocol) as T;
             }
         }
 
