@@ -66,7 +66,6 @@
     <Compile Include="Serializers\ISerializer.cs" />
     <Compile Include="Serializers\SampleJsonSerializer.cs" />
     <Compile Include="Serializers\SampleProtobufSerializer.cs" />
-    <Compile Include="Serializers\SampleThriftSerializer.cs" />
     <Compile Include="Serializers\SampleXmlSerializer.cs" />
   </ItemGroup>
   <ItemGroup>
